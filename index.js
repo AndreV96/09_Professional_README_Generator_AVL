@@ -2,11 +2,11 @@
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const fs = require("fs");
-// Ask user questions: title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+// TODO: Ask user questions: title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
-// Receive information from the questions and put it in the function generateMarkdown in a template literal
+// TODO: Receive information from the questions and put it in the function generateMarkdown in a template literal
 
-// Put the information from generateMarkdown in a new README file and then choose the location of the file.
+// TODO: Put the information from generateMarkdown in a new README file and then choose the location of the file.
 
 // TODO: Create an array of questions for user input
 const questions = [{
@@ -29,15 +29,17 @@ const questions = [{
     type: "list",
     name: "license",
     message: "Choose a license for your project",
-    choices: ["MIT", "GNU", "APACHE"]
+    choices: ["MIT", "GNU", "APACHE", "GPL", "BSD", "None"]
 }, {
     type: "input",
     name: "installation",
-    message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running"
+    message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running",
+    placeholder: "npm i"
 }, {
     type: "input",
     name: "tests",
-    message: "What command should be run to run tests?"
+    message: "What command should be run to run tests?",
+    placeholder: "npm test"
 }, {
     type: "input",
     name: "usage",
