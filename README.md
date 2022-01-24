@@ -5,6 +5,8 @@
 
 The purpose of this project is to create a README Generator to give users an easy to use tool so they can quickly create a README file, already with a template, with the basic information provided by them. With the use of node.js and the inquirer tool, users will be available to run the node index.js command in their terminals and will be prompted with questions regarding the information of their specific porject. Upon answering the questions, the repository will create a README file in the dist folder with all the information provided by the users in an organized template with a table of contents to easily navigate through each section of the README. 
 
+Repository link: https://github.com/AndreV96/09_Professional_README_Generator_AVL.git
+
 Link to video showing functionality: https://watch.screencastify.com/v/oIgzLOpwjL8uTKsL36Jj
 
 ### Screenshot of prompts and command run:
