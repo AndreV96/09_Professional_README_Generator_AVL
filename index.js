@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown.js")
 const fs = require("fs");

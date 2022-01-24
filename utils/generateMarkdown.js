@@ -1,5 +1,3 @@
-//MISSING FROM FINISHED PROJECT:   When code is finished make a video, take screenshots
-
 function renderLicenseBadge(licenseChoice) {
   const badges = {
     "MIT" : "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
