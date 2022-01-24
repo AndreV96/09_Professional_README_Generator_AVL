@@ -6,11 +6,13 @@ const fs = require("fs");
 const questions = [{
     type: "input",
     name: "github",
-    message: "What is your GitHub username?"
+    message: "What is your GitHub username?",
+    default: "AndreV96"
 },{
     type: "input",
     name: "email",
-    message: "What is your email address?"
+    message: "What is your email address?",
+    default: "ventaslederer@hotmail.com"
 },{
     type: "input",
     name: "title",
