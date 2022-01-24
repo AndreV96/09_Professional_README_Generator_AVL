@@ -1,9 +1,9 @@
-# Testing final?
-
+# Sample README
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-yes
+Sample README for recording of project.
 
 ## Table of Contents 
 
@@ -29,15 +29,15 @@ npm i
 
 ## Usage
 
-nuts
+Testing
 
 ## License
 
-No license
+This project is licensed under the MIT license
 
 ## Contributing
 
-nuts
+Testing
 
 ## Tests
 
