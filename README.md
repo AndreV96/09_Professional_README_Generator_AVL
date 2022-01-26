@@ -11,7 +11,7 @@ Link to video showing functionality: https://watch.screencastify.com/v/oIgzLOpwj
 
 ### Screenshot of prompts and command run:
 
-![Prompts](/prompts_ss.png)
+![Prompts](prompts_ss.png)
 
 ## Table of Contents 
 
